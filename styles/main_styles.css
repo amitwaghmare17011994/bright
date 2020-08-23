@@ -185,6 +185,7 @@ h6::selection
 	font-weight: 500 !important;
 	color: #a5a5a5 !important;
 }
+
 .form-control
 {
 	color: #db5246;
@@ -382,7 +383,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 
 /*********************************
@@ -393,7 +394,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #0276b5;
+	background: #e4010f;
 }
 .header_side img
 {
@@ -435,7 +436,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 
 /*********************************
@@ -513,7 +514,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .menu_close_container
 {
@@ -560,7 +561,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 
 /*********************************
@@ -594,7 +595,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .menu_container.active .menu_social_container
 {
@@ -693,7 +694,7 @@ section
 }
 .hero_slide_content h1 span
 {
-	background: #0276b5;
+	background: #e4010f;
 	padding-left: 13px;
 	padding-right: 13px;
 	margin-left: -12px;
@@ -741,7 +742,7 @@ section
 }
 .hero_slider_nav:hover
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 .hero_slider_nav:hover span
 {
@@ -793,7 +794,7 @@ section
 }
 .hero_box:hover
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 .hero_box img
 {
@@ -803,7 +804,7 @@ section
 }
 .svg path
 {
-	fill: #0276b5;
+	fill: #e4010f;
 }
 .hero_box svg
 {
@@ -874,7 +875,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #0276b5;
+	background: #e4010f;
 }
 
 /*********************************
@@ -985,7 +986,7 @@ section
 {
 	width: 67px;
 	height: 67px;
-	background: #0276b5;
+	background: #e4010f;
 	margin-left: auto;
 }
 .course_price span
@@ -1007,7 +1008,7 @@ section
 .register_section
 {
 	width: 100%;
-	background: #0276b5;
+	background: #e4010f;
 	padding-top: 156px;
 	padding-bottom: 161px;
 }
@@ -1104,13 +1105,13 @@ input:last-of-type
 .input_field:focus
 {
 	outline: none !important;
-	border: solid 2px #0276b5;
+	border: solid 2px #e4010f;
 }
 .search_submit_button
 {
 	width: 100%;
 	height: 48px;
-	background: #0276b5;
+	background: #e4010f;
 	color: #FFFFFF;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -1178,7 +1179,7 @@ input:last-of-type
 .testimonials
 {
 	width: 100%;
-	background: #1a1a1a;
+	background: #0276b5;
 }
 .testimonials_background_container
 {
@@ -1215,7 +1216,7 @@ input:last-of-type
 .quote
 {
 	font-size: 36px;
-	color: #0276b5;
+	color: #e4010f;
 }
 .testimonials_text
 {
@@ -1276,7 +1277,7 @@ input:last-of-type
 	width: 16px !important;
 	height: 16px !important;
 	border: none;
-	background: #0276b5 !important;
+	background: #e4010f !important;
 }
 
 /*********************************
@@ -1299,14 +1300,14 @@ input:last-of-type
 {
 	width: 131px;
 	height: 131px;
-	border: solid 2px #0276b5;
+	border: solid 2px #e4010f;
 	margin-bottom: 18px;
 }
 .event_day
 {
 	font-size: 48px;
 	font-weight: 700;
-	color: #0276b5;
+	color: #e4010f;
 	margin-bottom: 1px;
 	line-height: 1;
 }
@@ -1314,7 +1315,7 @@ input:last-of-type
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #0276b5;
+	color: #e4010f;
 }
 .event_name a
 {
@@ -1324,7 +1325,7 @@ input:last-of-type
 }
 .event_name a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .event_location
 {
@@ -1389,14 +1390,14 @@ input:last-of-type
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #0276b5;
+	outline: solid 2px #e4010f;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #0276b5;
+	background: #e4010f;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1458,7 +1459,7 @@ input:last-of-type
 }
 .footer_list_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .footer_contact_item
 {
@@ -1499,7 +1500,7 @@ input:last-of-type
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .footer_social .menu_social_item:last-child
 {

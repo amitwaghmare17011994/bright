@@ -93,6 +93,9 @@ $(document).ready(function()
 
 	function initHeroSlider()
 	{
+
+
+		
 		if($('.hero_slider').length)
 		{
 			var owl = $('.hero_slider');

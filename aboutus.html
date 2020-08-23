@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Course</title>
+    <title>Course - Courses</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Course Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
     <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+    
+
 </head>
 
 <body>
@@ -23,154 +24,102 @@
         <!-- Header -->
 
         <header class="header d-flex flex-row">
-			<div class="header_content d-flex flex-row align-items-center">
-				<!-- Logo -->
-				<div class="logo_container">
-					<div class="logo">
-						<img src="images/logo.png" alt="">
-						 
-					</div>
-				</div>
+            <div class="header_content d-flex flex-row align-items-center">
+                <!-- Logo -->
+                <div class="logo_container">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="" style="width: 250px;">
 
-				<!-- Main Navigation -->
-				<nav class="main_nav_container">
-					<div class="main_nav">
-						<ul class="main_nav_list">
-							<li class="main_nav_item"><a href="#">home</a></li>
-							<li class="main_nav_item"><a href="aboutus.html">about us</a></li>
-							<li class="main_nav_item"><a href="courses.html">courses</a></li>
-							<li class="main_nav_item"><a href="courses.html">syllabus</a></li>
-							<li class="main_nav_item"><a href="events.html">events</a></li>
-							<li class="main_nav_item"><a href="contact.html">contact</a></li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-			<div class="header_side d-flex flex-row justify-content-center align-items-center">
-				<img src="images/phone-call.svg" alt="">
-				<span>+43 4566 7788 2457</span>
-			</div>
+                    </div>
+                </div>
 
-			<!-- Hamburger -->
-			<div class="hamburger_container">
-				<i class="fas fa-bars trans_200"></i>
-			</div>
+                <!-- Main Navigation -->
+                <nav class="main_nav_container">
+                    <div class="main_nav">
+                        <ul class="main_nav_list">
+                            <li class="main_nav_item"><a href="index.html">home</a></li>
+                            <li class="main_nav_item"><a class="active" href="aboutus.html">about us</a></li>
+                            <li class="main_nav_item"><a href="courses.html">courses</a></li>
+                            <li class="main_nav_item"><a href="syllabus.html">syllabus</a></li>
+                            <li class="main_nav_item"><a href="events.html">events</a></li>
+                            <li class="main_nav_item"><a href="apply.html">apply online</a></li>
 
-		</header>
+                            <li class="main_nav_item"><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="header_side d-flex flex-row justify-content-center align-items-center">
+                <img src="images/phone-call.svg" alt="">
+                <span>+43 4566 7788 2457</span>
+            </div>
 
-		<!-- Menu -->
-		<div class="menu_container menu_mm">
+            <!-- Hamburger -->
+            <div class="hamburger_container">
+                <i class="fas fa-bars trans_200"></i>
+            </div>
 
-			<!-- Menu Close Button -->
-			<div class="menu_close_container">
-				<div class="menu_close"></div>
-			</div>
+        </header>
 
-			<!-- Menu Items -->
-			<div class="menu_inner menu_mm">
-				<div class="menu menu_mm">
-					<ul class="menu_list menu_mm">
-						<li class="menu_item menu_mm"><a href="#">Home</a></li>
-						<li class="menu_item menu_mm"><a href="aboutus.html">About us</a></li>
-						<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
-						<li class="menu_item menu_mm"><a href="events.html">Events</a></li>
-						<li class="menu_item menu_mm"><a href="courses.html">syllabus</a></li>
- 						<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
-					</ul>
+        <!-- Menu -->
+        <div class="menu_container menu_mm">
 
-					<!-- Menu Social -->
+            <!-- Menu Close Button -->
+            <div class="menu_close_container">
+                <div class="menu_close"></div>
+            </div>
 
-					<div class="menu_social_container menu_mm">
-						<ul class="menu_social menu_mm">
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
-						</ul>
-					</div>
+            <!-- Menu Items -->
+            <div class="menu_inner menu_mm">
+                <div class="menu menu_mm">
+                    <ul class="menu_list menu_mm">
+                        <li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+                        <li class="menu_item menu_mm"><a href="aboutus.html">About us</a></li>
+                        <li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
+                        <li class="menu_item menu_mm"><a href="events.html">Events</a></li>
+                        <li class="menu_item menu_mm"><a href="syllabus.html">syllabus</a></li>
+                        <li class=" menu_item menu_mm"><a href="apply.html">apply online</a></li>
 
-					<div class="menu_copyright menu_mm">Colorlib All rights reserved</div>
-				</div>
+                        <li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+                    </ul>
 
-			</div>
+                    <!-- Menu Social -->
 
-		</div>
-
-
-        <!-- Home -->
-
-        <div class="home">
-
-            <!-- Hero Slider -->
-            <div class="hero_slider_container">
-                <div class="hero_slider owl-carousel">
-
-                    <!-- Hero Slide -->
-                    <div class="hero_slide">
-                        <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)">
-                        </div>
-                        <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-                            <div class="hero_slide_content text-center">
-                                <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
-                                    THE BEST EDUCATION FOR
-                                    IIT-JEE
-                            </div>
-                        </div>
+                    <div class="menu_social_container menu_mm">
+                        <ul class="menu_social menu_mm">
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
                     </div>
 
-                    <!-- Hero Slide -->
-                    <div class="hero_slide">
-                        <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)">
-                        </div>
-                        <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-                            <div class="hero_slide_content text-center">
-                                <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your
-                                    JOIN ONLINE & PREPARE FOR
-                                    NEET-MEDICAL
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Hero Slide -->
-                    <div class="hero_slide">
-                        <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)">
-                        </div>
-                        <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-                            <div class="hero_slide_content text-center">
-                                <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your
-                                    WE CONTINUE TO SERVE YOU IN
-                                    LOCKDOWN
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="hero_slide">
-                        <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)">
-                        </div>
-                        <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-                            <div class="hero_slide_content text-center">
-                                <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your
-
-                                    BRIGHT TUTORIALS FOR
-                                    BETTER PROSPECTS
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
-                <div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prev</span></div>
-                <div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">next</span></div>
             </div>
 
         </div>
 
+        <!-- Home -->
 
+        <div class="home">
+            <div class="home_background_container prlx_parent">
+                <div class="home_background prlx" style="background-image:url(images/courses_background.jpg)"></div>
+            </div>
+            <div class="home_content">
+                <h1>About Us</h1>
+            </div>
+        </div>
 
         <!-- Popular -->
 
+        
+
+
         <div class="popular page_section">
+            
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -180,40 +129,322 @@
                     </div>
                 </div>
 
-                <div class="row course_boxes">
-                    <p>
-                        Bright Tutorials is the most trusted coaching institute for IIT-JEE & Medical-NEET preparation
-                        in Rajgurunagar. It is being managed by a team of enthusiastic academicians who are committed to
-                        success of aspirants aiming towards IIT’s, IIIT’s and NIT’s. We support and nurture students,
-                        guide them thus ensuring that their dream get strong wings to fly. The teachers are always ready
-                        to share student’s problems and solve their queries. The teachers not only teach them but even
-                        play management games and enjoy with the students. At Bright Tutorials, we believe in harnessing
-                        the individual strength of every student. Our motive is that each student recognizes and develop
-                        their strengths, build upon it and achieve the desired success of career...
-                    </p>
-                    <p>
-                        “Bright Tutorials” is brain child of Mrs. Neha S. Naikade, a young, energetic women entrepreneur
-                        and sound IT professional. She is currently acting as the chief mentor of Bright Careers &
-                        Bright Tutorials and guiding youngsters who wants to pursue their career in IT, Engineering and
-                        Medical field. She is MD & CEO of Sysnik IT Solutions which works in Core Banking Software
-                        Solutions and Enterprise Software Development sector. “Bright careers” understands the very
-                        pulse of rural youth. We gauge their potentials and provide tailor-made learning programmes that
-                        can bring out the best in them. At Bright Careers, the rural youth get just the comfort-zone
-                        that they need to trigger off their potential skills. We know how to shape them and hone them to
-                        boost their confidence.
-                    </p>
+                <div class="row course_boxes row">
+                    <div class="col-lg-2">
+                        <img src="images/overview.png" style="width: 150px;" />
+
+                    </div>
+                    <div class="col-lg-10">
+                        <p>
+                            Bright Tutorials is a brand of Bright Careers which is guarded and managed by a team of
+                            enthusiastic persons who intend to help an individual succeed in today’s competitive world.
+                            Bright Tutorials is an institution committed to success of students. We support and nurture
+                            students, guide them thus ensuring that their dream get strong wings to fly. At Bright
+                            Tutorials, we believe in harnessing the individual strength of every student. Our motive is
+                            that
+                            each student recognizes and develop their strengths, build upon it and achieve the desired
+                            success of career </p>
+                    </div>
+
+                </div>
+                <div class="row mt-5">
+                    <center class="col-lg-12">
+                        <img src="images/our_mission.png" style="width: 500px;" />
+                    </center>
                 </div>
             </div>
         </div>
+        <div class="popular page_section" style="margin-top: -120px;">
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h1>Meet Our Staff</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row course_boxes">
+                    <div class="col-lg-2"></div>
+                     <div class="col-lg-4 course_box">
+                        <div class="card">
+                            <img class="card-img-top" src="images/t2.jpeg" style="height: 341px;" alt="https://unsplash.com/@kellybrito">
+                            <div class="card-body text-center">
+                                <div class="card-title">
+
+                                    <div class="card-text">
+                                        20+ years of experience. Worked at Bansal Kota, Naraina IIT
+                                        Hyderabad, Resonance Kota</div>
+                                </div>
+                                <div class="price_box d-flex flex-row align-items-center">
+                                    <div class="course_author_image">
+                                        <img src="images/t2.jpeg" width="40px;"   alt="https://unsplash.com/@mehdizadeh">
+                                    </div>
+                                    <div class="course_author_name"> Dr Jagdish Mishra </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 course_box">
+                        <div class="card">
+                            <img class="card-img-top" src="images/t3.jpeg" alt="https://unsplash.com/@kellybrito">
+                            <div class="card-body text-center">
+                                <div class="card-title">
+
+                                    <div class="card-text">
+                                        7+ years of experience. Worked as Senior Maths Lecturer at Narayana Hyderabad,
+                                        Mishra
+                                        Tutorials</div>
+                                </div>
+                                <div class="price_box d-flex flex-row align-items-center">
+                                    <div class="course_author_image">
+                                        <img src="images/t3.jpeg" width="40px;" height="40px;"
+                                            alt="https://unsplash.com/@mehdizadeh">
+                                    </div>
+                                    <div class="course_author_name"> Mr. Arif Ansari </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h1>Directors Message</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="images/director.png" style="width: 150px;" />
+
+                    </div>
+                    <div class="col-lg-8" style="font-size: 16px;color:black;">
+                        Dear Students,
+                        Every individual has a right to dream, to dream high. However, those who live in rural areas do
+                        not always get the benefit of big players in coaching classes. Affording the high fee structures
+                        and arranging for urban lifestyle is not everyone’s cup of tea.
+                        You child has a dream, an aspiration! We believe in individual strength of every student. We
+                        have established Bright Tutorials with a zeal to innovate, educate and impart best quality
+                        education to our rural and semi-rural students. Bright tutorials, is committed to guide and
+                        support your child throughout this journey of excellence, so that they create a wonderful
+                        tomorrow. With our dedicated faculty team and innovation in Learning, we strive to give your
+                        child nothing less than best.
+                        We are here to lay pillars for your Child’s Success!!!
+                        <br />
+                        <br />
+                        <div class="director">
+                            Mrs. Neha Naikade,
+                        </div>
+                        <span class="director">
+                            Director, Bright Tutorials
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <hr />
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="images/a_director.png" style="width: 150px;" />
+
+                    </div>
+                    <div class="col-lg-8" style="font-size: 16px;color:black;">
+                        Dear Students,
+                        The focus of national level competitions has
+                        shifted towards applied aspects, so to take an unbeatable lead for success, clarity of concepts
+                        and rigorous practice on relevant modules is
+                        required from the very beginning. In this competitive era you must chalk-out your strategy
+                        well in advance to build up your career because
+                        an early action followed by dedicated efforts results in definitive success. BRIGHT TUTORIALS is
+                        a result of long thought process, the institute of National standards, and works round the clock
+                        to unfold full potential of the students through its researched program. It has been my
+                        observation that most people get ahead during the time others waste because, success consists of
+                        a services of little daily efforts. If you want to be successful in life then you must believe
+                        in action. Buildup your career and letthe dreams of your parents turn into reality.
+                        <br />
+                        <br />
+                        <div class="director">
+                            Prof. Dr. Jagdish Mishra,
+                        </div>
+                        <span class="director">
+                            Academic Director, Bright Tutorials
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+
+
+
+
+            
+
+        </div>
+
+        <div id="myModal" class="modal fade " role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="height: 100%;width: 100%;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Footer -->
+       
+
 
     </div>
 
-    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
 
-    
+            <!-- Newsletter -->
 
-    </div>
+            <div class="newsletter">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h1>Connect with us</h1>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="newsletter_form_container mx-auto">
+                            <form action="post">
+                                <div
+                                    class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+                                    <input id="newsletter_email" class="newsletter_email" type="email"
+                                        placeholder="Email Address" required="required"
+                                        data-error="Valid email is required.">
+                                    <button id="newsletter_submit" type="submit"
+                                        class="newsletter_submit_btn trans_300" value="Submit">Connect</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Content -->
+
+            <div class="footer_content">
+                <div class="row">
+
+                    <!-- Footer Column - About -->
+                    <div class="col-lg-6 footer_col">
+
+                        <!-- Logo -->
+                        <div class="logo_container">
+                            <div class="logo">
+                                <img src="images/logo_b copy.png" alt="">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Footer Column - Menu -->
+
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_column_title">Menu</div>
+                        <div class="footer_column_content">
+                            <ul>
+                                <li class="footer_list_item"><a href="index.html">Home</a></li>
+                                <li class="footer_list_item"><a href="#">About Us</a></li>
+                                <li class="footer_list_item"><a href="courses.html">Courses</a></li>
+                                <li class="footer_list_item"><a href="news.html">News</a></li>
+                                <li class="footer_list_item"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column - Usefull Links -->
+
+
+                    <!-- Footer Column - Contact -->
+
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_column_title">Contact</div>
+                        <div class="footer_column_content">
+                            <ul>
+                                <li class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <img src="images/placeholder.svg"
+                                            alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>
+                                    Near Bank of Maharashtra, Wada Road, Rajgurunagar, Tal.- Khed, Dist.- Pune, MH-
+                                    410505.
+                                </li>
+                                <li class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <img src="images/smartphone.svg"
+                                            alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>
+                                    +91-90 750 850 79
+                                </li>
+                                <li class="footer_contact_item">
+                                    <div class="footer_contact_icon">
+                                        <img src="images/envelope.svg"
+                                            alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>bt.khed@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer Copyright -->
+
+            <div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+
+                <div class="footer_social ml-sm-auto">
+                    <ul class="menu_social">
+                        <li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="styles/bootstrap4/popper.js"></script>
     <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -222,10 +453,9 @@
     <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
     <script src="plugins/greensock/animation.gsap.min.js"></script>
     <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
     <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
     <script src="plugins/easing/easing.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/courses_custom.js"></script>
 
 </body>
 

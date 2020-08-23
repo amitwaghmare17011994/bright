@@ -1,4 +1,107 @@
 @charset "utf-8";
+p{
+	color: black !important;
+}
+ol li{
+	color: black !important;
+
+}
+.footer{
+	background-color: #1a1a1a;
+	padding: 20px;
+}
+.circle_st{
+	position: absolute;bottom: -100px;	left: 35%;display: flex;flex-direction: column;
+}
+.active_card{
+	 
+	 top: 0;
+	 
+}
+.student_card{
+	background-color: red;
+	border-radius: 5px;
+	width: 400px;
+	padding: 20px;
+	margin:0px 20px 0px 20px;
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer_t{
+	color: white;
+	font-size: x-large;
+	font-weight: bolder;
+}
+.apply_online{
+	height: 104px;
+	font-size: 25px;
+	text-align: center;
+	min-height: 100%;
+ 	margin-left: 20px;
+	background-color: red;
+  	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.roundButton{
+	border-radius: 50px;
+	background-color: teal;
+	padding: 15px 100px 5px 100px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color:black;
+	box-shadow: 0px 2px 10px 0px;
+	cursor: pointer;
+
+}
+.active
+{
+	color: #e4010f !important;
+}
+.largetitle{
+	font-size: 40px;
+	font-weight: bold;
+}
+.why_item{
+	font-size: medium;
+	color: #1a2d61;
+}
+.circle_img{
+ 	 
+	border-radius: 90px;
+	;
+ 
+}
+.circle{
+	background-color: #ee1c25;height: 90px;width: 90px; border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	right:  90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+@media only screen and (max-width: 400px){
+	
+.nav-header{
+	display: none;
+}
+}
+ 
+
+
 /* CSS Document */
 
 /******************************
@@ -132,16 +235,25 @@
 
 @media only screen and (max-width: 991px)
 {
+	.header{
+		background-color: transparent;
+	}
+	.header_content{
+		display: none;
+		visibility: hidden;
+ 	}
 	.main_nav_container
 	{
 		display: none;
+
 	}
 	.logo_container
 	{
-		padding-left: 30px;
+		padding-left: 10px;
 	}
 	.hamburger_container
 	{
+		color: white;
 		display: block;
 	}
 	.sidebar

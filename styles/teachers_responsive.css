@@ -133,7 +133,13 @@
 /************
 6. 991px
 ************/
-
+.hamburger_container
+	{
+		display: block;
+	}
+	.main_nav_container{
+		display: none;
+	}
 @media only screen and (max-width: 991px)
 {
 	.main_nav_container

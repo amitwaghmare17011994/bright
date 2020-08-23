@@ -218,7 +218,7 @@ $(document).ready(function()
 		    			strokeWidth: 0.5,
 						easing: 'easeInOut',
 						duration: 1400,
-						color: '#0276b5',
+						color: '#e4010f',
 						trailColor: '#ffffff',
 						trailWidth: 1,
 						svgStyle: {display: 'block', width: '100%', height: '100%'},
@@ -328,8 +328,8 @@ $(document).ready(function()
 						{
 							autoStyleContainer: false
 						},
-						from:{ color: '#0276b5', width: 2 },
-						to: { color: '#0276b5', width: 2 },
+						from:{ color: '#e4010f', width: 2 },
+						to: { color: '#e4010f', width: 2 },
 						// Set default step function for all animate calls
 						step: function(state, circle)
 						{
@@ -350,7 +350,7 @@ $(document).ready(function()
 					bar.text.style.fontFamily = '"Roboto", sans-serif';
 					bar.text.style.fontSize = '48px';
 					bar.text.style.fontWeight = '400';
-					bar.text.style.color = "#0276b5";
+					bar.text.style.color = "#e4010f";
 
 
 					bar.animate(endValue);  // Number from 0.0 to 1.0

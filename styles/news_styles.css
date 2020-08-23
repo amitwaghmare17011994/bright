@@ -328,7 +328,7 @@ section
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 26px;
 }
 .logo span
 {
@@ -379,7 +379,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 
 /*********************************
@@ -390,7 +390,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #0276b5;
+	background: #e4010f;
 }
 .header_side img
 {
@@ -428,11 +428,11 @@ section
 {
 	font-size: 24px;
 	padding: 10px;
-	color: #3a3a3a;
+	color: white;
 }
 .hamburger_container:hover i
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 
 /*********************************
@@ -510,7 +510,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .menu_close_container
 {
@@ -557,7 +557,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 
 /*********************************
@@ -595,7 +595,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .menu_container.active .menu_social_container
 {
@@ -672,7 +672,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #0276b5;
+	background: #e4010f;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -721,7 +721,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #0276b5;
+	background: #e4010f;
 }
 
 /*********************************
@@ -784,7 +784,7 @@ section
 {
 	width: 68px;
 	height: 68px;
-	background: #0276b5;
+	background: #e4010f;
 }
 .news_post_date div:first-child
 {
@@ -874,7 +874,7 @@ section
 {
 	width: 188px;
 	height: 53px;
-	background: #0276b5;
+	background: #e4010f;
 	margin-top: 18px;
 }
 .news_post_button a
@@ -904,11 +904,11 @@ section
 }
 .news_page_nav ul li.active
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 .news_page_nav ul li:hover
 {
-	background: #0276b5;
+	background: #e4010f;
 }
 .news_page_nav ul li a
 {
@@ -963,7 +963,7 @@ section
 }
 .sidebar_list_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .latest_posts
 {
@@ -1036,7 +1036,7 @@ section
 .tag
 {
 	height: 40px;
-	background: #0276b5;
+	background: #e4010f;
 	margin-right: 12px;
 	margin-bottom: 10px;
 }
@@ -1091,14 +1091,14 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #0276b5;
+	outline: solid 2px #e4010f;
 }
 .newsletter_submit_btn
 {
 	width: 164px;
 	height: 42px;
 	border: none;
-	background: #0276b5;
+	background: #e4010f;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1160,7 +1160,7 @@ section
 }
 .footer_list_item a:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .footer_contact_item
 {
@@ -1201,7 +1201,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #0276b5;
+	color: #e4010f;
 }
 .footer_social .menu_social_item:last-child
 {
