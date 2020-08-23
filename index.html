@@ -11,9 +11,24 @@
 	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js	"></script>
+
+
+
+	<!-- Owl Stylesheets -->
+	<link rel="stylesheet" href="owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+	<script src="owl/docs/assets/vendors/jquery.min.js"></script>
+	<script src="owl/docs/assets/owlcarousel/owl.carousel.js"></script>
+
+
+
 </head>
 
+
 <body>
+
 
 	<div class="super_container">
 
@@ -105,13 +120,26 @@
 		<!-- Home -->
 
 		<div class="home" style=" height: 100vh;">
+
 			<div class="home_background_container prlx_parent">
 				<div class="home_background prlx">
-					<center>
-						<img src="images/bannerOne.png" style=" margin-top: 10%;" />
-					</center>
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+						</div>
+						<div class="item">
+							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+						</div>
+						<div class="item">
+							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+						</div>
+						<div class="item">
+							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+						</div>
+					</div>
 				</div>
 			</div>
+
 
 		</div>
 		<div class="row ">
@@ -182,12 +210,12 @@
 				<div class="col-lg-3">
 					<div style=" background-color: #eaebec;padding: 20px;height:80px;width: 276px;">
 						<div class="circle">
-						 
-								<center>
-									<img src="images/mht_i.png" style="width: 60px;" />
-								</center>
-	
-							 
+
+							<center>
+								<img src="images/mht_i.png" style="width: 60px;" />
+							</center>
+
+
 						</div>
 					</div>
 					<div>
@@ -296,9 +324,11 @@
 					</center>
 					<div style="margin-top: 20px;">
 						<div style="display: flex;">
-							<div class="student_card">
+
+							<div class="student_card item">
 								<span>
-									“I am really happy to be part of Bright Tutorials, stimulating learning environment
+									“I am really happy to be part of Bright Tutorials, stimulating learning
+									environment
 									that
 									you’ve created there.”
 								</span>
@@ -311,21 +341,20 @@
 
 							<div class="student_card active_card">
 								<span>
-									“I am really happy to be part of Bright Tutorials, stimulating learning environment
-									that
-									you’ve created there.”
-									middle
+									“I am amazed at my daughter’s development since having these few sessions with
+									Bright Tutorials.”
 								</span>
 								<div class="circle_st">
-									<img class="circle_img" src="images/testi1.jpg" />
-									<span style="color: black;margin-top: 10px;">ANAND SAGAR</span>
+									<img class="circle_img" src="images/testi3.jpg" />
+									<span style="color: black;margin-top: 10px;">JITESH RANE</span>
 								</div>
 							</div>
 
 
 							<div class="student_card">
 								<span>
-									“I am really happy to be part of Bright Tutorials, stimulating learning environment
+									“I am really happy to be part of Bright Tutorials, stimulating learning
+									environment
 									that
 									you’ve created there.”
 								</span>
@@ -334,6 +363,7 @@
 									<span style="color: black;margin-top: 10px;">ANAND SAGAR</span>
 								</div>
 							</div>
+
 
 						</div>
 
@@ -466,7 +496,7 @@
 
 
 
-		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
 		<script src="styles/bootstrap4/popper.js"></script>
 		<script src="styles/bootstrap4/bootstrap.min.js"></script>
 		<script src="plugins/greensock/TweenMax.min.js"></script>
@@ -477,7 +507,25 @@
 		<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 		<script src="plugins/easing/easing.js"></script>
 		<script src="js/news_custom.js"></script>
-
+		<script>
+			$(document).ready(function () {
+				var owl = $('.owl-carousel');
+				owl.owlCarousel({
+					items: 1,
+					loop: true,
+					margin: 10,
+					autoplay: true,
+					autoplayTimeout: 1000,
+					autoplayHoverPause: true
+				});
+				$('.play').on('click', function () {
+					owl.trigger('play.owl.autoplay', [1000])
+				})
+				$('.stop').on('click', function () {
+					owl.trigger('stop.owl.autoplay')
+				})
+			})
+		</script>
 </body>
 
 </html>
