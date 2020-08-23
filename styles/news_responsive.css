@@ -236,24 +236,17 @@ ol li{
 @media only screen and (max-width: 991px)
 {
 	.header{
-		background-color: transparent;
-	}
-	.header_content{
-		display: none;
-		visibility: hidden;
- 	}
+		background-color: white;
+	}	 
 	.main_nav_container
 	{
-		display: none;
-
+		display: none !important;
+ 		
 	}
-	.logo_container
-	{
-		padding-left: 10px;
-	}
+	 
 	.hamburger_container
 	{
-		color: white;
+		color: black;
 		display: block;
 	}
 	.sidebar
@@ -350,7 +343,7 @@ ol li{
 	}
 	.logo img
 	{
-		width: 30px;
+		width: 250px;
 	}
 	.logo span
 	{

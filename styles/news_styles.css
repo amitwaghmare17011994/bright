@@ -421,18 +421,18 @@ section
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	right: 20px;
-	display: none;
+	display: none;	
 	cursor: pointer;
 }
 .hamburger_container i
 {
 	font-size: 24px;
 	padding: 10px;
-	color: white;
+	color:black;
 }
 .hamburger_container:hover i
 {
-	color: #e4010f;
+	color:black;
 }
 
 /*********************************
