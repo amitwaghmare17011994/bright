@@ -836,15 +836,15 @@ section
 .contact_info_icon
 {
 	display: inline-block;
-	width: 24px;
+	width: 50px;
 	height: 24px;
 	vertical-align: middle;
 	margin-right: 10px;
-}
+ }
 .contact_info_icon img
 {
 	width: 100%;
-}
+ }
 
 /*********************************
 11. Google Map
