@@ -10,8 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+
+	<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 
 	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js	"></script>
 
@@ -93,6 +97,46 @@
 			</div>
 
 		</header>
+		<!-- QUICK ENQ -->
+		<div class="quick_enq " id='quick_enq' onclick="onQuickEnq(1)">
+			<center>
+				<i class="fa fa-phone  fa-rotate-90 center"></i>
+			</center>
+		</div>
+		<div id='quick_form' class="right_form" style="display: none;" onclick="onQuickEnq(0)">
+			<div class="contact_form">
+				<div class="contact_title">Quick Enquiry
+					<i class="fa fa-times-circle" style="font-size: 20px;position: absolute;right:0;cursor: pointer;"
+						aria-hidden="true"></i>
+				</div>
+				<div class="">
+					<form action="post">
+						<input id="contact_form_name" class="form-control contact_form_name" type="text"
+							placeholder="Name" required="required" style="margin-top: 20px;"
+							data-error="Name is required.">
+						<input id="contact_form_contant" style="margin-top: 20px;"
+							class="form-control contact_form_contact" type="email" placeholder="Contact Number"
+							required="required" data-error="Valid contact is required.">
+						<input id="contact_form_email" style="margin-top: 20px;" class="form-control contact_form_email"
+							type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+						<textarea id="contact_form_message" style="margin-top: 20px;"
+							class="form-control contact_form_message" name="message" placeholder="Message"
+							required="required" data-error="Please, write us a message."></textarea>
+						<button id="contact_send_btn" style="margin-top: 20px;" type="button"
+							class="contact_send_btn trans_200" value="Submit">send message</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			function onQuickEnq(tag) {
+ 				document.getElementById('quick_form').style.display = tag ? 'block' : 'none';
+				document.getElementById('quick_enq').style.display = tag ? 'none' : 'block';
+			}
+		</script>
+		<!-- QUICK ENQ -->
 
 		<!-- Menu -->
 		<div class="menu_container menu_mm">
@@ -305,12 +349,8 @@
 							</div>
 
 
-							<!-- <div class="col-lg-6">
-								<div class="largetitle">
-									<span style="color: #1a2d61;">WHY </span>
-									<span style="color: red;">BRIGHT </span>
-									<span style="color: #1a2d61;">TUTORIALS...</span>
-								</div>
+							<div class="col-lg-6">
+
 								<ul id='why_list'>
 
 								</ul>
@@ -329,16 +369,15 @@
 								</li>`;
 									});
 								</script>
-							</div> -->
-							<div class="col-lg-12">
-								<!-- <img src="images/whyb.jpeg" /> -->
+							</div>
+							<div class="col-lg-6">
+								<img src="images/whyus.png" />
 							</div>
 						</div>
 
 						<center>
 							<div class="row mb-5 mt-5">
 								<div class="why_box">
-									s
 								</div>
 							</div>
 						</center>
