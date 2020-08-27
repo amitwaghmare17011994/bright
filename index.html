@@ -124,17 +124,18 @@
 			<div class="home_background_container home_background_container_home ">
 				<div class="home_background prlx">
 					<div class="owl-carousel owl-theme"  >
+						 
 						<div class="item">
-							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+							<img src="images/New-Banner(english)_1.jpg" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerTwo.jpeg" style=" margin-top: 10%;" />
+							<img src="images/New-Banner(english)_2.jpg" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerThree.jpeg" style=" margin-top: 10%;" />
+							<img src="images/New-Banner.jpg" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerFound.jpeg" style=" margin-top: 10%;" />
+							<img src="images/New-Banner2.jpg" style=" margin-top: 10%;" />
 						</div>
 					</div>
 				</div>
@@ -152,8 +153,8 @@
 		<div class="container">
 			<div class="row ">
 
-				<div class="col-lg-3  course_card">
-					<div class="circle_container">
+				<div class="col-lg-3  course_card" id='iit.html'  onclick="goto(this)"  style="cursor:pointer;">
+					<div class="circle_container"  >
 						<div class="circle">
 							<center>
 								<img src="images/iit_i.png" style="width: 40px;" />
@@ -173,13 +174,13 @@
 							(JEE MAINS and Advance)
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
+					<div class="more" style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f;" href="iit.html">More...</a>
 					</div>
 				</div>
 
 
-				<div class="col-lg-3 course_card">
+				<div id='med.html'  onclick="goto(this)"  style="cursor:pointer;" class="col-lg-3 course_card">
 					<div class="circle_container">
 						<div class="circle">
 							<center>
@@ -200,13 +201,13 @@
 							(AIIMS / NEET)
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
+					<div class="more" style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="med.html">More...</a>
 
 					</div>
 				</div>
 
-				<div class="col-lg-3 course_card">
+				<div id='boards.html'  onclick="goto(this)"  style="cursor:pointer;" class="col-lg-3 course_card">
 					<div class="circle_container">
 						<div class="circle">
 
@@ -230,7 +231,7 @@
 						</span>
 
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
+					<div class="more" style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="boards.html">More...</a>
 					</div>
 				</div>
@@ -238,7 +239,7 @@
 
 
 
-				<div class="col-lg-3 course_card">
+				<div id='found.html'  onclick="goto(this)"  style="cursor:pointer;" class="col-lg-3 course_card">
 					<div class="circle_container">
 						<div class="circle">
 							<center>
@@ -258,10 +259,17 @@
 							Class 8th,9th,10th
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
+					<div class="more" style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="found.html">More...</a>
 					</div>
 				</div>
+
+
+				<script>
+					function goto(e){
+						window.location=e.id;
+					}
+				</script>
 			</div>
 		</div>
 		<!-- News -->
@@ -508,7 +516,7 @@
 					loop: true,
 					margin: 10,
 					autoplay: true,
-					autoplayTimeout: 1000,
+					autoplayTimeout: 7000,
 					autoplayHoverPause: true
 				});
 				$('.play').on('click', function () {
