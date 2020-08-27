@@ -1,4 +1,14 @@
 @charset "utf-8";
+.home_background_container{
+	margin-bottom: 300px !important;
+}
+.header{
+	width: 100%;
+}
+.header_content
+{
+	background-color: white;
+}
 p{
 	color: black !important;
 }
@@ -11,19 +21,37 @@ ol li{
 	padding: 20px;
 }
 .circle_st{
-	position: absolute;bottom: -100px;	left: 35%;display: flex;flex-direction: column;
+	position: absolute;
+	bottom: -100px;
+	 text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 .active_card{
 	 
 	 top: 0;
 	 
 }
+.circle_flex{
+	display: flex;
+	justify-content: center;
+	top:50px;
+}
+.course_card{
+	margin-top: 90px;
+}
+.homepage_header{
+	justify-content: center;
+	position: fixed;
+	z-index: 11;
+	width: 100%; 
+}
 .student_card{
 	background-color: red;
 	border-radius: 5px;
 	width: 400px;
 	padding: 20px;
-	margin:0px 20px 0px 20px;
+	margin:0px 40px 0px 40px;
 	color: white;
 	font-size: 15px;
 	font-weight: bolder;
@@ -81,14 +109,16 @@ ol li{
 .circle_img{
  	 
 	border-radius: 90px;
-	;
  
+}
+.circle_container{
+	background-color: #eaebec;padding: 20px;height:80px;
+	display: flex;justify-content: center;
 }
 .circle{
 	background-color: #ee1c25;height: 90px;width: 90px; border-radius: 50%;
-	position: absolute;
-	top: -50px;
-	right:  90px;
+ 	top: -50px;
+	 
 	display: flex;
 	flex-direction: column;
 	justify-content: center
@@ -232,12 +262,29 @@ ol li{
 /************
 6. 991px
 ************/
-
+.home_container{
+	height: 100vh;
+	margin-top: -120px;
+}
 @media only screen and (max-width: 991px)
 {
-	.header{
-		background-color: white;
-	}	 
+	 .home_background_container_home{
+		 margin-top: 160px;
+		height: 100vh;
+		}
+	.home_container{
+			height: 50vh;
+		}
+
+	.homepage_header{
+		 background-color: transparent !important;
+		 position: fixed	;
+		 /* z-index: 0; */
+	}
+	.student_card{
+		margin-top: 140px;
+	}
+	   
 	.main_nav_container
 	{
 		display: none !important;

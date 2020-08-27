@@ -345,10 +345,7 @@ section
 	margin-left: auto;
 	padding-right: 93px;
 }
-.main_nav
-{
-	margin-top: 7px;
-}
+ 
 .main_nav_item
 {
 	display: inline-block;
@@ -638,9 +635,9 @@ section
 }
 .home_background_container
 {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; */
 	width: 100%;
 	height: 100%;
 }

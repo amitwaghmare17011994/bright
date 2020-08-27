@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Bright Tutorials - News</title>
+	<title>Bright Tutorials </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Course Project">
@@ -10,7 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+
 	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js	"></script>
 
 
@@ -34,7 +36,7 @@
 
 		<!-- Header -->
 
-		<header class="header d-flex flex-row nav-header">
+		<header class="d-flex flex-row nav-header homepage_header">
 			<div class="header_content d-flex flex-row align-items-center">
 				<!-- Logo -->
 				<div class="logo_container">
@@ -46,12 +48,13 @@
 
 				<!-- Main Navigation -->
 				<nav class="main_nav_container" style="display: flex;align-items: center;padding-right: 0px;">
+
 					<div class="main_nav">
 						<ul class="main_nav_list">
-							<li class="main_nav_item active"><a class="active" href="#">home</a></li>
+							<li class="main_nav_item active"><a class="active" href="index.html">Home</a></li>
 							<li class="main_nav_item"><a href="aboutus.html">about us</a></li>
 							<li class="main_nav_item"><a href="courses.html">courses</a></li>
-							<li class="main_nav_item"><a href="syllabus.html">syllabus</a></li>
+							<li class="main_nav_item"><a href="syllabus.html">Syllabus</li>
 							<li class="main_nav_item"><a href="events.html">events</a></li>
 							<li class="main_nav_item"><a href="contact.html">contact</a></li>
 
@@ -66,10 +69,7 @@
 					</a>
 				</nav>
 			</div>
-			<div class="header_side d-flex flex-row justify-content-center align-items-center">
-				<img src="images/phone-call.svg" alt="">
-				<span>+43 4566 7788 2457</span>
-			</div>
+
 
 			<!-- Hamburger -->
 			<div class="hamburger_container">
@@ -90,11 +90,11 @@
 			<div class="menu_inner menu_mm">
 				<div class="menu menu_mm">
 					<ul class="menu_list menu_mm">
-						<li class="menu_item menu_mm"><a href="index.html">home</a></li>
+						<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
 						<li class="menu_item menu_mm"><a href="aboutus.html">About us</a></li>
 						<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
 						<li class="menu_item menu_mm"><a href="events.html">Events</a></li>
-						<li class="menu_item menu_mm"><a href="syllabus.html">syllabus</a></li>
+						<li class="menu_item menu_mm"><a href="syllabus.html">Syllabus</li>
 						<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
 					</ul>
 
@@ -119,22 +119,22 @@
 
 		<!-- Home -->
 
-		<div class="home" style=" height: 100vh;">
+		<div class="home_container">
 
-			<div class="home_background_container prlx_parent">
+			<div class="home_background_container home_background_container_home ">
 				<div class="home_background prlx">
-					<div class="owl-carousel owl-theme">
+					<div class="owl-carousel owl-theme"  >
 						<div class="item">
 							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+							<img src="images/bannerTwo.jpeg" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+							<img src="images/bannerThree.jpeg" style=" margin-top: 10%;" />
 						</div>
 						<div class="item">
-							<img src="images/bannerOne.png" style=" margin-top: 10%;" />
+							<img src="images/bannerFound.jpeg" style=" margin-top: 10%;" />
 						</div>
 					</div>
 				</div>
@@ -142,19 +142,18 @@
 
 
 		</div>
-		<div class="row ">
+		<div class="row " style="margin-top: 120px;">
 			<div class="col">
 				<div class="section_title text-center">
 					<h1>Our Courses</h1>
 				</div>
 			</div>
 		</div>
-		<div class="fluid-container">
-			<div class="row" style="margin: 90px 20px 0px 20px;" id='courses'>
+		<div class="container">
+			<div class="row ">
 
-
-				<div class="col-lg-3" style="height: 285px;">
-					<div style="background-color: #eaebec;padding: 20px;height:80px;width: 276px;">
+				<div class="col-lg-3  course_card">
+					<div class="circle_container">
 						<div class="circle">
 							<center>
 								<img src="images/iit_i.png" style="width: 40px;" />
@@ -163,10 +162,10 @@
 						</div>
 					</div>
 					<div>
-						<img src="images/iits.png" />
+						<img src="images/iits.png" class="img-fluid " style="width: 100%;" />
 					</div>
 					<div
-						style="padding: 10px;background-color: #d7d7d7; width: 276px;align-items: center;text-align: center;display: flex;flex-direction: column;">
+						style="padding: 10px;background-color: #d7d7d7;  align-items: center;text-align: center;display: flex;flex-direction: column;">
 						<span style="font-size:30px;color: #e4010f;font-weight: bold;">
 							IIT-JEE
 						</span>
@@ -174,14 +173,14 @@
 							(JEE MAINS and Advance)
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;width: 276px;text-align: center;">
+					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f;" href="iit.html">More...</a>
 					</div>
 				</div>
 
 
-				<div class="col-lg-3" style="min-height: 285px;">
-					<div style="background-color: #eaebec;padding: 20px;height:80px;width: 276px;">
+				<div class="col-lg-3 course_card">
+					<div class="circle_container">
 						<div class="circle">
 							<center>
 								<img src="images/med_icon.png" style="width: 40px;" />
@@ -190,10 +189,10 @@
 						</div>
 					</div>
 					<div>
-						<img src="images/med copy.png" width="276px;" />
+						<img src="images/med copy.png" class="img-fluid " style="width: 100%;" />
 					</div>
 					<div
-						style="height: 139px;padding: 10px;background-color: #d7d7d7; width: 276px;align-items: center;text-align: center;display: flex;flex-direction: column;">
+						style="height: 139px;padding: 10px;background-color: #d7d7d7; align-items: center;text-align: center;display: flex;flex-direction: column;">
 						<span style="font-size:30px;color: #e4010f;font-weight: bold;">
 							MEDICAL
 						</span>
@@ -201,14 +200,14 @@
 							(AIIMS / NEET)
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;width: 276px;text-align: center;">
+					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="med.html">More...</a>
 
 					</div>
 				</div>
 
-				<div class="col-lg-3">
-					<div style=" background-color: #eaebec;padding: 20px;height:80px;width: 276px;">
+				<div class="col-lg-3 course_card">
+					<div class="circle_container">
 						<div class="circle">
 
 							<center>
@@ -219,10 +218,10 @@
 						</div>
 					</div>
 					<div>
-						<img src="images/mhc.png" width="276px;" />
+						<img src="images/mhc.png" class="img-fluid  " style="width: 100%;" />
 					</div>
 					<div
-						style="height: 139px; padding: 10px;background-color: #d7d7d7; width: 276px;align-items: center;text-align: center;display: flex;flex-direction: column;">
+						style="height: 139px; padding: 10px;background-color: #d7d7d7; align-items: center;text-align: center;display: flex;flex-direction: column;">
 						<span style="font-size:30px;color: #e4010f;font-weight: bold;">
 							MHT-CET
 						</span>
@@ -231,12 +230,16 @@
 						</span>
 
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;width: 276px;text-align: center;">
+					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="boards.html">More...</a>
 					</div>
 				</div>
-				<div class="col-lg-3">
-					<div style="background-color: #eaebec;padding: 20px;height:80px;width: 276px;">
+
+
+
+
+				<div class="col-lg-3 course_card">
+					<div class="circle_container">
 						<div class="circle">
 							<center>
 								<img src="images/found_i.png" style="width: 60px;" />
@@ -244,10 +247,10 @@
 						</div>
 					</div>
 					<div>
-						<img src="images/found.png" width="276px;" />
+						<img src="images/found.png" class="img-fluid  " style="width: 100%;" />
 					</div>
 					<div
-						style="height: 139px;padding: 10px;background-color: #d7d7d7; width: 276px;align-items: center;text-align: center;display: flex;flex-direction: column;">
+						style="height: 139px;padding: 10px;background-color: #d7d7d7; align-items: center;text-align: center;display: flex;flex-direction: column;">
 						<span style="font-size:30px;color: #e4010f;font-weight: bold;">
 							FOUNDATION
 						</span>
@@ -255,7 +258,7 @@
 							Class 8th,9th,10th
 						</span>
 					</div>
-					<div style="padding: 10px;background-color: #eaebec;width: 276px;text-align: center;">
+					<div style="padding: 10px;background-color: #eaebec;text-align: center;">
 						<a style="font-style: italic;color:#e4010f ;" href="found.html">More...</a>
 					</div>
 				</div>
@@ -266,35 +269,37 @@
 
 			<div>
 
-				<div style="margin-top: 90px;background-color: #f9fafb;padding-top: 20px;">
-					<div class="row" style="margin: 90px 20px 0px 20px;">
-						<div class="col-lg-6">
-							<div class="largetitle">
-								<span style="color: #1a2d61;">WHY </span>
-								<span style="color: red;">BRIGHT </span>
-								<span style="color: #1a2d61;">TUTORIALS...</span>
-							</div>
-							<ul id='why_list'>
+				<div style=" background-color: #f9fafb;padding-top: 20px;" class="fluid-container">
+					<div class="container">
+						<div class="row " style="margin: 90px 20px 0px 20px;">
+							<div class="col-lg-6">
+								<div class="largetitle">
+									<span style="color: #1a2d61;">WHY </span>
+									<span style="color: red;">BRIGHT </span>
+									<span style="color: #1a2d61;">TUTORIALS...</span>
+								</div>
+								<ul id='why_list'>
 
-							</ul>
-							<script>
-								const list = ['True Trusted Institute', 'Best Experienced Faculty Team', 'Concept Base Learning'
-									, 'Best Teaching Methodologyh', 'Regular MCQ Test Serise', 'Regular Performance Analysis', 'Daily Practice Problem',
-									'Career Counselling', 'Doubt Clearing Session', 'Competetive Environment', 'Regular Counselling', 'Best Stydu Material', 'Library Facility',
-									'Board Evalution Programs'
-								];
-								const l = document.getElementById('why_list');
-								list.forEach(function (i) {
-									l.innerHTML += `<li class='why_item'>
+								</ul>
+								<script>
+									const list = ['True Trusted Institute', 'Best Experienced Faculty Team', 'Concept Base Learning'
+										, 'Best Teaching Methodologyh', 'Regular MCQ Test Serise', 'Regular Performance Analysis', 'Daily Practice Problem',
+										'Career Counselling', 'Doubt Clearing Session', 'Competetive Environment', 'Regular Counselling', 'Best Stydu Material', 'Library Facility',
+										'Board Evalution Programs'
+									];
+									const l = document.getElementById('why_list');
+									list.forEach(function (i) {
+										l.innerHTML += `<li class='why_item'>
 								<img src="images/pointer.png" width="15px;"/>
 								${i}
 								
 								</li>`;
-								});
-							</script>
-						</div>
-						<div class="col-lg-6">
-							<img src="images/whyus.png" />
+									});
+								</script>
+							</div>
+							<div class="col-lg-6">
+								<img src="images/whyus.png" />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -316,51 +321,60 @@
 				</div>
 
 				<div>
-					<img src="images/eco.png" />
+					<img class="img-fluid" src="images/eco.png" style="width:100%" />
 				</div>
-				<div style="margin-top: 90px;">
-					<center style="color: black;font-weight: bold;">
+				<div style="margin-top: 90px;margin-bottom: 100px;">
+					<center style="color: black;font-weight: bold;margin-bottom: 40px;">
 						<h1>WHAT OUR STUDENTS SAYS</h1>
 					</center>
-					<div style="margin-top: 20px;">
-						<div style="display: flex;">
-
-							<div class="student_card item">
+					<div class="container">
+						<div class="row container">
+							<div class="student_card item col-lg-3">
 								<span>
 									“I am really happy to be part of Bright Tutorials, stimulating learning
 									environment
 									that
 									you’ve created there.”
 								</span>
-								<div class="circle_st">
-									<img class="circle_img" src="images/testi1.jpg" />
+								<div class="circle_flex">
+
+								<div class="circle_st ">
+									<img class="circle_img img-fluid" src="images/testi1.jpg" />
 									<span style="color: black;margin-top: 10px;">ANAND SAGAR</span>
 								</div>
+								</div>	
 							</div>
 
-
-							<div class="student_card active_card">
+							<div class="student_card active_card col-lg-3">
 								<span>
 									“I am amazed at my daughter’s development since having these few sessions with
 									Bright Tutorials.”
 								</span>
+								<div class="circle_flex">
+
 								<div class="circle_st">
-									<img class="circle_img" src="images/testi3.jpg" />
+									<img class="circle_img img-fluid" src="images/testi3.jpg" />
 									<span style="color: black;margin-top: 10px;">JITESH RANE</span>
+								</div>
 								</div>
 							</div>
 
 
-							<div class="student_card">
+							<div class="student_card col-lg-3">
 								<span>
 									“I am really happy to be part of Bright Tutorials, stimulating learning
 									environment
 									that
 									you’ve created there.”
 								</span>
-								<div class="circle_st">
-									<img class="circle_img" src="images/testi1.jpg" />
-									<span style="color: black;margin-top: 10px;">ANAND SAGAR</span>
+
+
+								<div class="circle_flex">
+									<div class="circle_st">
+										<img class="circle_img img-fluid" src="images/testi1.jpg" />
+
+										<span style="color: black;margin-top: 10px;">ANAND SAGAR</span>
+									</div>
 								</div>
 							</div>
 
@@ -378,30 +392,9 @@
 				<!-- Newsletter -->
 
 				<div class="newsletter">
-					<div class="row">
-						<div class="col">
-							<div class="section_title text-center">
-								<h1>Connect with us</h1>
-							</div>
-						</div>
-					</div>
 
-					<div class="row">
-						<div class="col text-center">
-							<div class="newsletter_form_container mx-auto">
-								<form action="post">
-									<div
-										class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
-										<input id="newsletter_email" class="newsletter_email" type="email"
-											placeholder="Email Address" required="required"
-											data-error="Valid email is required.">
-										<button id="newsletter_submit" type="submit"
-											class="newsletter_submit_btn trans_300" value="Submit">Connect</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
+
+
 
 				</div>
 
@@ -431,10 +424,10 @@
 							<div class="footer_column_content">
 								<ul>
 									<li class="footer_list_item"><a href="index.html">Home</a></li>
-									<li class="footer_list_item"><a href="#">About Us</a></li>
+									<li class="footer_list_item"><a href="aboutus.html">About Us</a></li>
 									<li class="footer_list_item"><a href="courses.html">Courses</a></li>
-									<li class="footer_list_item"><a href="news.html">News</a></li>
-									<li class="footer_list_item"><a href="#">Contact</a></li>
+
+									<li class="footer_list_item"><a href="contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</div>
