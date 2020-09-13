@@ -30,9 +30,9 @@
 		<header class="d-flex flex-row nav-header homepage_header">
 			<div class="header_content d-flex flex-row align-items-center">
 				<!-- Logo -->
-				<a class="logo_container" style="cursor: pointer;" href="index.html">
+				<a class="logo_container"  id="logo_container" style="cursor: pointer;" href="index.html">
 					<div class="logo">
-						<img src="images/logo.png" alt="">
+						<img src="images/logo.png" id="logo_img" alt="">
 
 					</div>
 				</a>
@@ -42,7 +42,7 @@
 
 					<div class="main_nav">
 						<ul class="main_nav_list">
-							<li class="main_nav_item active"><a href="#">home</a></li>
+							<li class="main_nav_item active"><a href="index.html">home</a></li>
 							<li class="main_nav_item"><a href="aboutus.html">about us</a></li>
 							<li class="main_nav_item dropdown active">
 								<a href="courses.html" class="dropbtn">courses</a>
@@ -158,12 +158,13 @@
 							<img src="images/iits.png" class="img-fluid " style="width: 100%;" />
 						</div>
 						<div
-							style="padding: 10px;background-color: #d7d7d7;  align-items: center;text-align: center;display: flex;flex-direction: column;">
+							style="padding: 10px;background-color: #d7d7d7;  align-items: center;text-align: center;display: flex;flex-direction: column;	min-height: 136px;
+							">
 							<span style="font-size:30px;color: #e4010f;font-weight: bold;">
 								IIT-JEE
 							</span>
 							<span style="font-size: 25px;color: #2d3d6d;font-weight: bold;">
-								(JEE MAINS and Advance)
+								(JEE MAINS & Adv)
 							</span>
 						</div>
 						<div class="more" style="padding: 10px;background-color: #eaebec;text-align: center;">
@@ -307,7 +308,7 @@
 						<div class="col-lg-6 footer_col">
 
 							<!-- Logo -->
-							<div class="logo_container">
+							<div class="logo_container"  id="logo_container">
 								<div class="logo">
 									<img src="images/logo_b copy.png" alt="">
 
@@ -402,6 +403,7 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/courses_custom.js"></script>
 
+<script src="js/rotate.js"></script>
 </body>
 
 </html>

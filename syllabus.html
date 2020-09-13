@@ -22,9 +22,9 @@
 		<header class="d-flex flex-row nav-header homepage_header"  >
 			<div class="header_content d-flex flex-row align-items-center"  >
 				<!-- Logo -->
-				<a class="logo_container" style="cursor: pointer;" href="index.html">
+				<a class="logo_container"  id="logo_container" style="cursor: pointer;" href="index.html">
 					<div class="logo">
-						<img src="images/logo.png" alt="">
+						<img src="images/logo.png" id="logo_img" alt="">
 
 					</div>
 				</a>
@@ -73,17 +73,21 @@
         <i class="fa fa-phone  fa-rotate-90 center"></i>
     </center>
 </div>
-<div id='quick_form' class="right_form" style="display: none;" onclick="onQuickEnq(0)">
+<div id='quick_form' class="right_form" style="display: none;" >
     <div class="contact_form">
         <div class="contact_title">Quick Enquiry
-            <i class="fa fa-times-circle" style="font-size: 20px;position: absolute;right:0;cursor: pointer;"
+            <i class="fa fa-times-circle"   onclick="onQuickEnq(0)" style="font-size: 20px;position: absolute;right:0;cursor: pointer;"
                 aria-hidden="true"></i>
         </div>
         <div class="">
             <form action="post">
                 <input id="contact_form_name" class="form-control contact_form_name" type="text"
                     placeholder="Name" required="required" style="margin-top: 20px;"
-                    data-error="Name is required.">
+                     data-error="Name is required.">
+
+                    <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                    placeholder="Standard" required="required" style="margin-top: 20px;"
+                    data-error="Std is required.">
                 <input id="contact_form_contant" style="margin-top: 20px;"
                     class="form-control contact_form_contact" type="email" placeholder="Contact Number"
                     required="required" data-error="Valid contact is required.">
@@ -153,7 +157,7 @@
 
         <div class="home">
             <div class="home_background_container ">
-                <div class="home_background " style='background-image:url(images/New-Banner.jpg)'></div>
+                <div class="home_background " style='background-image:url(images/Syllabus1.jpg)'></div>
             </div>
             
         </div>
@@ -751,7 +755,7 @@
 						<div class="col-lg-6 footer_col">
 
 							<!-- Logo -->
-							<div class="logo_container">
+							<div class="logo_container"  id="logo_container">
 								<div class="logo">
 									<img src="images/logo_b copy.png" alt="">
 
@@ -832,6 +836,7 @@
 		</footer>
 
 
+<script src="js/rotate.js"></script>
 </body>
 
 </html>

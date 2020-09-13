@@ -34,9 +34,9 @@
 		<header class="d-flex flex-row nav-header homepage_header"  >
 			<div class="header_content d-flex flex-row align-items-center"  >
 				<!-- Logo -->
-				<a class="logo_container" style="cursor: pointer;" href="index.html">
+				<a class="logo_container"  id="logo_container" style="cursor: pointer;" href="index.html">
 					<div class="logo">
-						<img src="images/logo.png" alt="">
+						<img src="images/logo.png" id="logo_img" alt="">
 
 					</div>
 				</a>
@@ -132,7 +132,11 @@
                         <form action="post">
                             <input id="contact_form_name" class="form-control contact_form_name" type="text"
                                 placeholder="Name" required="required" style="margin-top: 20px;"
-                                data-error="Name is required.">
+                                 data-error="Name is required.">
+
+                    <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                    placeholder="Standard" required="required" style="margin-top: 20px;"
+                    data-error="Std is required.">
                             <input id="contact_form_contant" style="margin-top: 20px;"
                                 class="form-control contact_form_contact" type="email" placeholder="Contact Number"
                                 required="required" data-error="Valid contact is required.">
@@ -150,11 +154,9 @@
 
             </div>
             <div class="home_background_container prlx_parent">
-                <div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+                <div class="home_background prlx" style="background-image:url(images/Syllabus.jpg)"></div>
             </div>
-            <div class="home_content">
-                <h1>Apply Online</h1>
-            </div>
+            
         </div>
 
         <!-- Contact -->
@@ -182,7 +184,11 @@
                             <div class="contact_form_container">
                                 <form id="apply">
                                     <input id="name" name="fullname" class="input_field contact_form_name" type="text"
-                                        placeholder="Name" required="required" data-error="Name is required.">
+                                        placeholder="Name" required="required"  data-error="Name is required.">
+
+                    <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                    placeholder="Standard" required="required" style="margin-top: 20px;"
+                    data-error="Std is required.">
                                     <input id="email" name="email" class="input_field contact_form_email" type="email"
                                         placeholder="E-mail" required="required" data-error="Valid email is required.">
                                     <input id="cont" class="input_field contact_form_phone" type="phone"
@@ -254,7 +260,7 @@
                     <div class="col-lg-6 footer_col">
 
                         <!-- Logo -->
-                        <div class="logo_container">
+                        <div class="logo_container"  id="logo_container">
                             <div class="logo">
                                 <img src="images/logo_b copy.png" alt="">
 
@@ -385,6 +391,7 @@
     </script>
 
 
+<script src="js/rotate.js"></script>
 </body>
 
 </html>

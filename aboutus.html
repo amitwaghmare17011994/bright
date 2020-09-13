@@ -2,25 +2,25 @@
 <html lang="en">
 
 <head>
-   <title>Bright Tutorials </title>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="Course Project">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+    <title>Bright Tutorials </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Course Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
     <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
-    
+
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
     <link rel="stylesheet" type="text/css" href="styles/news_styles.css">
 
     <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
-    
-    
+
+
 
 </head>
 
@@ -29,95 +29,103 @@
     <div class="super_container">
 
         <!-- Header -->
- 
-		<header class="d-flex flex-row nav-header homepage_header"  >
-			<div class="header_content d-flex flex-row align-items-center"  >
-				<!-- Logo -->
-				<a class="logo_container" style="cursor: pointer;" href="index.html">
-					<div class="logo">
-						<img src="images/logo.png" alt="">
 
-					</div>
-				</a>
+        <header class="d-flex flex-row nav-header homepage_header">
+            <div class="header_content d-flex flex-row align-items-center">
+                <!-- Logo -->
+                <a class="logo_container" id="logo_container" style="cursor: pointer;" href="index.html">
+                    <div class="logo">
+                        <img src="images/logo.png" id="logo_img" alt="">
 
-				<!-- Main Navigation -->
-				<nav class="main_nav_container" style="display: flex;align-items: center;padding-right: 0px;">
+                    </div>
+                </a>
 
-					<div class="main_nav">
-						<ul class="main_nav_list">
-							<li class="main_nav_item active"><a     href="index.html">home</a></a></li>
-							<li class="main_nav_item"><a class="active" href="aboutus.html">about us</a></li>
-							<li class="main_nav_item dropdown">
-								<a href="courses.html" class="dropbtn">courses</a>
-								<div class="dropdown-content">
-									<a href="iit.html">IIT-JEE</a>
-									<a href="med.html">MEDICAL</a>
-									<a href="boards.html">BOARDS</a>
-									<a href="found.html">FOUNDATION</a>
-								</div>
-							</li>							<li class="main_nav_item"><a href="syllabus.html">Syllabus</li>
-							<li class="main_nav_item"><a href="events.html">events</a></li>
-							<li class="main_nav_item"><a href="contact.html">contact</a></li>
+                <!-- Main Navigation -->
+                <nav class="main_nav_container" style="display: flex;align-items: center;padding-right: 0px;">
 
-						</ul>
+                    <div class="main_nav">
+                        <ul class="main_nav_list">
+                            <li class="main_nav_item active"><a href="index.html">home</a></a></li>
+                            <li class="main_nav_item"><a class="active" href="aboutus.html">about us</a></li>
+                            <li class="main_nav_item dropdown">
+                                <a href="courses.html" class="dropbtn">courses</a>
+                                <div class="dropdown-content">
+                                    <a href="iit.html">IIT-JEE</a>
+                                    <a href="med.html">MEDICAL</a>
+                                    <a href="boards.html">BOARDS</a>
+                                    <a href="found.html">FOUNDATION</a>
+                                </div>
+                            </li>
+                            <li class="main_nav_item"><a href="syllabus.html">Syllabus</li>
+                            <li class="main_nav_item"><a href="events.html">events</a></li>
+                            <li class="main_nav_item"><a href="contact.html">contact</a></li>
 
-					</div>
-					<a href="apply.html" class="apply_online">
-						<span>
-							Apply Online
-						</span>
+                        </ul>
 
-					</a>
-				</nav>
-			</div>
+                    </div>
+                    <a href="apply.html" class="apply_online">
+                        <span>
+                            Apply Online
+                        </span>
+
+                    </a>
+                </nav>
+            </div>
 
 
-			<!-- Hamburger -->
-			<div class="hamburger_container">
-				<i class="fas fa-bars trans_200"></i>
-			</div>
+            <!-- Hamburger -->
+            <div class="hamburger_container">
+                <i class="fas fa-bars trans_200"></i>
+            </div>
 
-		</header>
-<!-- QUICK ENQ -->
-<div class="quick_enq " id='quick_enq' onclick="onQuickEnq(1)">
-    <center>
-        <i class="fa fa-phone  fa-rotate-90 center"></i>
-    </center>
-</div>
-<div id='quick_form' class="right_form" style="display: none;" onclick="onQuickEnq(0)">
-    <div class="contact_form">
-        <div class="contact_title">Quick Enquiry
-            <i class="fa fa-times-circle" style="font-size: 20px;position: absolute;right:0;cursor: pointer;"
-                aria-hidden="true"></i>
+        </header>
+        <!-- QUICK ENQ -->
+        <div class="quick_enq " id='quick_enq' onclick="onQuickEnq(1)">
+            <center>
+                <i class="fa fa-phone  fa-rotate-90 center"></i>
+            </center>
         </div>
-        <div class="">
-            <form action="post">
-                <input id="contact_form_name" class="form-control contact_form_name" type="text"
-                    placeholder="Name" required="required" style="margin-top: 20px;"
-                    data-error="Name is required.">
-                <input id="contact_form_contant" style="margin-top: 20px;"
-                    class="form-control contact_form_contact" type="email" placeholder="Contact Number"
-                    required="required" data-error="Valid contact is required.">
-                <input id="contact_form_email" style="margin-top: 20px;" class="form-control contact_form_email"
-                    type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-                <textarea id="contact_form_message" style="margin-top: 20px;"
-                    class="form-control contact_form_message" name="message" placeholder="Message"
-                    required="required" data-error="Please, write us a message."></textarea>
-                <button id="contact_send_btn" style="margin-top: 20px;" type="button"
-                    class="contact_send_btn trans_200" value="Submit">send message</button>
-            </form>
+        <div id='quick_form' class="right_form" style="display: none;">
+            <div class="contact_form">
+                <div class="contact_title">Quick Enquiry
+                    <i class="fa fa-times-circle" onclick="onQuickEnq(0)"
+                        style="font-size: 20px;position: absolute;right:0;cursor: pointer;" aria-hidden="true"></i>
+                </div>
+                <div class="">
+                    <form action="post">
+
+                        <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                            placeholder="Name" required="required" style="margin-top: 20px;"
+                            data-error="Name is required.">
+
+                        <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                            placeholder="Standard" required="required" style="margin-top: 20px;"
+                            data-error="Std is required.">
+
+
+                        <input id="contact_form_contant" style="margin-top: 20px;"
+                            class="form-control contact_form_contact" type="email" placeholder="Contact Number"
+                            required="required" data-error="Valid contact is required.">
+                        <input id="contact_form_email" style="margin-top: 20px;" class="form-control contact_form_email"
+                            type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+                        <textarea id="contact_form_message" style="margin-top: 20px;"
+                            class="form-control contact_form_message" name="message" placeholder="Message"
+                            required="required" data-error="Please, write us a message."></textarea>
+                        <button id="contact_send_btn" style="margin-top: 20px;" type="button"
+                            class="contact_send_btn trans_200" value="Submit">send message</button>
+                    </form>
+                </div>
+            </div>
+
         </div>
-    </div>
 
-</div>
-
-<script>
-    function onQuickEnq(tag) {
-         document.getElementById('quick_form').style.display = tag ? 'block' : 'none';
-        document.getElementById('quick_enq').style.display = tag ? 'none' : 'block';
-    }
-</script>
-<!-- QUICK ENQ -->
+        <script>
+            function onQuickEnq(tag) {
+                document.getElementById('quick_form').style.display = tag ? 'block' : 'none';
+                document.getElementById('quick_enq').style.display = tag ? 'none' : 'block';
+            }
+        </script>
+        <!-- QUICK ENQ -->
 
         <!-- Menu -->
         <div class="menu_container menu_mm">
@@ -162,20 +170,25 @@
 
         <!-- Home -->
 
-        <div class="home">
+        <!-- <div class="home">
             <div class="home_background_container prlx_parent">
                 <div class="home_background prlx" style="background-image:url(images/120.jpg)"></div>
             </div>
             
-        </div>
+        </div> -->
+        <div class="home">
+            <div class="home_background_container ">
+                <div class="home_background" style="background-image:url(images/120.jpg)"></div>
+            </div>
 
+        </div>
         <!-- Popular -->
 
-        
+
 
 
         <div class="popular page_section">
-            
+
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -186,7 +199,7 @@
                 </div>
 
                 <div class="row course_boxes row">
-                    
+
                     <div class="col-lg-12" style="font-size:20px ;">
                         <p>
                             Bright Tutorials is a brand of Bright Careers which is guarded and managed by a team of
@@ -202,153 +215,106 @@
                 </div>
                 <div class="row mt-5">
                     <center class="col-lg-12">
-                        <img src="images/Mision_Vision_value_Banner-01.png" class="img-fluid "  />
+                        <img src="images/Mision_Vision_value_Banner-01.png" class="img-fluid " />
                     </center>
                 </div>
                 <div class="row ">
                     <center class="col-lg-12">
-                        <img src="images/Mision_Vision_value_Banner-02.png" class="img-fluid "  />
+                        <img src="images/Mision_Vision_value_Banner-02.png" class="img-fluid " />
                     </center>
                 </div>
                 <div class="row  ">
                     <center class="col-lg-12">
-                        <img src="images/Mision_Vision_value_Banner-03.png" class="img-fluid "  />
+                        <img src="images/Mision_Vision_value_Banner-03.png" class="img-fluid " />
                     </center>
                 </div>
             </div>
         </div>
-        <div class="popular page_section" style="margin-top: -120px;">
-            <!-- <div class="container">
-                <div class="row">
+        <div class="popular " style="margin-top: -120px;">
+
+
+            <div class="fluid-container" style="background-color: #fdc00f;padding-bottom:20px;">
+                <div class="row"  >
                     <div class="col">
-                        <div class="section_title text-center">
-                            <h1>Meet Our Staff</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row course_boxes">
-                    <div class="col-lg-2"></div>
-                     <div class="col-lg-4 course_box">
-                        <div class="card">
-                            <img class="card-img-top" src="images/t2.jpeg" style="height: 341px;" alt="https://unsplash.com/@kellybrito">
-                            <div class="card-body text-center">
-                                <div class="card-title">
-
-                                    <div class="card-text">
-                                        20+ years of experience. Worked at Bansal Kota, Naraina IIT
-                                        Hyderabad, Resonance Kota</div>
-                                </div>
-                                <div class="price_box d-flex flex-row align-items-center">
-                                    <div class="course_author_image">
-                                        <img src="images/t2.jpeg" width="40px;"   alt="https://unsplash.com/@mehdizadeh">
-                                    </div>
-                                    <div class="course_author_name"> Dr Jagdish Mishra </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 course_box">
-                        <div class="card">
-                            <img class="card-img-top" src="images/t3.jpeg" alt="https://unsplash.com/@kellybrito">
-                            <div class="card-body text-center">
-                                <div class="card-title">
-
-                                    <div class="card-text">
-                                        7+ years of experience. Worked as Senior Maths Lecturer at Narayana Hyderabad,
-                                        Mishra
-                                        Tutorials</div>
-                                </div>
-                                <div class="price_box d-flex flex-row align-items-center">
-                                    <div class="course_author_image">
-                                        <img src="images/t3.jpeg" width="40px;" height="40px;"
-                                            alt="https://unsplash.com/@mehdizadeh">
-                                    </div>
-                                    <div class="course_author_name"> Mr. Arif Ansari </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section_title text-center">
+                        <div class="section_title text-center" style="margin-top:20px;">
                             <h1>Directors Message</h1>
                         </div>
                     </div>
 
                 </div>
                 <hr />
-                <div class="row"> 
-                <div class="col-lg-6 row">
-                     
-                    <div class="col-lg-4">
-                        <img src="images/director.png" style="width: 150px;" />
+                <div class="row" style="margin-left:30px;">
+                    <div class="col-lg-6 row">
 
-                    </div>
-                    <div class="col-lg-8" style="font-size: 16px;color:black;">
-                        Dear Students,
-                        Every individual has a right to dream, to dream high. However, those who live in rural areas do
-                        not always get the benefit of big players in coaching classes. Affording the high fee structures
-                        and arranging for urban lifestyle is not everyone’s cup of tea.
-                        You child has a dream, an aspiration! We believe in individual strength of every student. We
-                        have established Bright Tutorials with a zeal to innovate, educate and impart best quality
-                        education to our rural and semi-rural students. Bright tutorials, is committed to guide and
-                        support your child throughout this journey of excellence, so that they create a wonderful
-                        tomorrow. With our dedicated faculty team and innovation in Learning, we strive to give your
-                        child nothing less than best.
-                        We are here to lay pillars for your Child’s Success!!!
-                        <br />
-                        <br />
-                        <div class="director">
-                            Mrs. Neha Naikade,
+                        <div class="col-lg-4">
+                            <img src="images/director.png" style="width: 150px;" />
+
                         </div>
-                        <span class="director">
-                            Director, Bright Tutorials
-                        </span>
+                        <div class="col-lg-8" style="font-size: 16px;color:black;">
+                            Dear Students,
+                            Every individual has a right to dream, to dream high. However, those who live in rural areas
+                            do
+                            not always get the benefit of big players in coaching classes. Affording the high fee
+                            structures
+                            and arranging for urban lifestyle is not everyone’s cup of tea.
+                            You child has a dream, an aspiration! We believe in individual strength of every student. We
+                            have established Bright Tutorials with a zeal to innovate, educate and impart best quality
+                            education to our rural and semi-rural students. Bright tutorials, is committed to guide and
+                            support your child throughout this journey of excellence, so that they create a wonderful
+                            tomorrow. With our dedicated faculty team and innovation in Learning, we strive to give your
+                            child nothing less than best.
+                            We are here to lay pillars for your Child’s Success!!!
+                            <br />
+                            <br />
+                            <div class="director" style="margin-top:48px;">
+                                Mrs. Neha Naikade,
+                            </div>
+                            <span class="director">
+                                Director, Bright Tutorials
+                            </span>
 
-                    </div>
-                
-
-                </div>
-
-                <hr />
-                <div class="col-lg-6 row">
-                    <div class="col-lg-4">
-                        <img src="images/a_director.png" style="width: 150px;" />
-
-                    </div>
-                    <div class="col-lg-8" style="font-size: 16px;color:black;">
-                        Dear Students,
-                        The focus of national level competitions has
-                        shifted towards applied aspects, so to take an unbeatable lead for success, clarity of concepts
-                        and rigorous practice on relevant modules is
-                        required from the very beginning. In this competitive era you must chalk-out your strategy
-                        well in advance to build up your career because
-                        an early action followed by dedicated efforts results in definitive success. BRIGHT TUTORIALS is
-                        a result of long thought process, the institute of National standards, and works round the clock
-                        to unfold full potential of the students through its researched program. It has been my
-                        observation that most people get ahead during the time others waste because, success consists of
-                        a services of little daily efforts. If you want to be successful in life then you must believe
-                        in action. Buildup your career and letthe dreams of your parents turn into reality.
-                        <br />
-                        <br />
-                        <div class="director">
-                            Prof. Dr. Jagdish Mishra,
                         </div>
-                        <span class="director">
-                            Academic Director, Bright Tutorials
-                        </span>
+
 
                     </div>
 
+                    <hr />
+                    <div class="col-lg-6 row">
+                        <div class="col-lg-4">
+                            <img src="images/a_director.png" style="width: 150px;" />
+
+                        </div>
+                        <div class="col-lg-8" style="font-size: 16px;color:black;">
+                            Dear Students,
+                            The focus of national level competitions has
+                            shifted towards applied aspects, so to take an unbeatable lead for success, clarity of
+                            concepts
+                            and rigorous practice on relevant modules is
+                            required from the very beginning. In this competitive era you must chalk-out your strategy
+                            well in advance to build up your career because
+                            an early action followed by dedicated efforts results in definitive success. BRIGHT
+                            TUTORIALS is
+                            a result of long thought process, the institute of National standards, and works round the
+                            clock
+                            to unfold full potential of the students through its researched program. It has been my
+                            observation that most people get ahead during the time others waste because, success
+                            consists of
+                            a services of little daily efforts. If you want to be successful in life then you must
+                            believe
+                            in action. Buildup your career and letthe dreams of your parents turn into reality.
+                            <br />
+                            <br />
+                            <div class="director">
+                                Prof. Dr. Jagdish Mishra,
+                            </div>
+                            <span class="director">
+                                Academic Director, Bright Tutorials
+                            </span>
+
+                        </div>
+
+                    </div>
                 </div>
-            </div>
             </div>
 
             <!-- Footer -->
@@ -356,7 +322,7 @@
 
 
 
-            
+
 
         </div>
 
@@ -386,17 +352,23 @@
 
 
         <!-- Footer -->
-       
+
 
 
     </div>
 
-    <footer class="footer">
+	<footer class="footer">
         <div class="container">
 
             <!-- Newsletter -->
 
-             
+            <div class="newsletter">
+
+
+
+
+            </div>
+
             <!-- Footer Content -->
 
             <div class="footer_content">
@@ -406,7 +378,7 @@
                     <div class="col-lg-6 footer_col">
 
                         <!-- Logo -->
-                        <div class="logo_container">
+                        <div class="logo_container"  id="logo_container">
                             <div class="logo">
                                 <img src="images/logo_b copy.png" alt="">
 
@@ -425,8 +397,8 @@
                                 <li class="footer_list_item"><a href="index.html">Home</a></li>
                                 <li class="footer_list_item"><a href="aboutus.html">About Us</a></li>
                                 <li class="footer_list_item"><a href="courses.html">Courses</a></li>
-                                <li class="footer_list_item"><a href="news.html">News</a></li>
-                                <li class="footer_list_item"><a href="#">Contact</a></li>
+
+                                <li class="footer_list_item"><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -497,6 +469,7 @@
     <script src="plugins/easing/easing.js"></script>
     <script src="js/courses_custom.js"></script>
 
+    <script src="js/rotate.js"></script>
 </body>
 
 </html>

@@ -20,9 +20,9 @@
 	<header class="header d-flex flex-row">
 		<div class="header_content d-flex flex-row align-items-center">
 			<!-- Logo -->
-			<div class="logo_container">
+			<div class="logo_container"  id="logo_container">
 				<div class="logo">
-					<img src="images/logo.png" alt="">
+					<img src="images/logo.png" id="logo_img" alt="">
 					 
 				</div>
 			</div>
@@ -124,7 +124,11 @@
 
 						<div class="contact_form_container">
 							<form action="post">
-								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
+								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required"  data-error="Name is required.">
+
+                    <input id="contact_form_name" class="form-control contact_form_name" type="text"
+                    placeholder="Standard" required="required" style="margin-top: 20px;"
+                    data-error="Std is required.">
 								<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
 								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
 								<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">send message</button>
@@ -221,9 +225,9 @@
 					<div class="col-lg-3 footer_col">
 
 						<!-- Logo -->
-						<div class="logo_container">
+						<div class="logo_container"  id="logo_container">
 							<div class="logo">
-								<img src="images/logo.png" alt="">
+								<img src="images/logo.png" id="logo_img" alt="">
 								<span>course</span>
 							</div>
 						</div>
@@ -329,5 +333,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
 
+<script src="js/rotate.js"></script>
 </body>
 </html>

@@ -252,7 +252,7 @@ section
 }
 .prlx_parent
 {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .prlx
 {

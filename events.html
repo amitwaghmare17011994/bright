@@ -2,30 +2,30 @@
 <html lang="en">
 
 <head>
-    <title>Bright Tutorials </title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Course Project">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/news_styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+	<title>Bright Tutorials </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Course Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
 </head>
 
 <body>
 
-    <div class="super_container">
+	<div class="super_container">
 
-        <!-- Header -->
- 
-	 
-		<header class="d-flex flex-row nav-header homepage_header"  >
-			<div class="header_content d-flex flex-row align-items-center"  >
+		<!-- Header -->
+
+
+		<header class="d-flex flex-row nav-header homepage_header">
+			<div class="header_content d-flex flex-row align-items-center">
 				<!-- Logo -->
-				<a class="logo_container" style="cursor: pointer;" href="index.html">
+				<a class="logo_container"  id="logo_container" style="cursor: pointer;" href="index.html">
 					<div class="logo">
-						<img src="images/logo.png" alt="">
+						<img src="images/logo.png" id="logo_img" alt="">
 
 					</div>
 				</a>
@@ -35,7 +35,7 @@
 
 					<div class="main_nav">
 						<ul class="main_nav_list">
-							<li class="main_nav_item active"><a   <a  href="index.html">home</a></a></li>
+							<li class="main_nav_item active"><a <a href="index.html">home</a></a></li>
 							<li class="main_nav_item"><a href="aboutus.html">about us</a></li>
 							<li class="main_nav_item dropdown">
 								<a href="courses.html" class="dropbtn">courses</a>
@@ -45,7 +45,8 @@
 									<a href="boards.html">BOARDS</a>
 									<a href="found.html">FOUNDATION</a>
 								</div>
-							</li>							<li class="main_nav_item"><a href="syllabus.html">Syllabus</li>
+							</li>
+							<li class="main_nav_item"><a href="syllabus.html">Syllabus</li>
 							<li class="main_nav_item"><a class="active" href="events.html">events</a></li>
 							<li class="main_nav_item"><a href="contact.html">contact</a></li>
 
@@ -69,46 +70,50 @@
 
 		</header>
 
-<!-- QUICK ENQ -->
-<div class="quick_enq " id='quick_enq' onclick="onQuickEnq(1)">
-	<center>
-		<i class="fa fa-phone  fa-rotate-90 center"></i>
-	</center>
-</div>
-<div id='quick_form' class="right_form" style="display: none;" onclick="onQuickEnq(0)">
-	<div class="contact_form">
-		<div class="contact_title">Quick Enquiry
-			<i class="fa fa-times-circle" style="font-size: 20px;position: absolute;right:0;cursor: pointer;"
-				aria-hidden="true"></i>
+		<!-- QUICK ENQ -->
+		<div class="quick_enq " id='quick_enq' onclick="onQuickEnq(1)">
+			<center>
+				<i class="fa fa-phone  fa-rotate-90 center"></i>
+			</center>
 		</div>
-		<div class="">
-			<form action="post">
-				<input id="contact_form_name" class="form-control contact_form_name" type="text"
-					placeholder="Name" required="required" style="margin-top: 20px;"
-					data-error="Name is required.">
-				<input id="contact_form_contant" style="margin-top: 20px;"
-					class="form-control contact_form_contact" type="email" placeholder="Contact Number"
-					required="required" data-error="Valid contact is required.">
-				<input id="contact_form_email" style="margin-top: 20px;" class="form-control contact_form_email"
-					type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-				<textarea id="contact_form_message" style="margin-top: 20px;"
-					class="form-control contact_form_message" name="message" placeholder="Message"
-					required="required" data-error="Please, write us a message."></textarea>
-				<button id="contact_send_btn" style="margin-top: 20px;" type="button"
-					class="contact_send_btn trans_200" value="Submit">send message</button>
-			</form>
+		<div id='quick_form' class="right_form" style="display: none;">
+			<div class="contact_form">
+				<div class="contact_title">Quick Enquiry
+					<i class="fa fa-times-circle" onclick="onQuickEnq(0)"
+						style="font-size: 20px;position: absolute;right:0;cursor: pointer;" aria-hidden="true"></i>
+				</div>
+				<div class="">
+					<form action="post">
+						<input id="contact_form_name" class="form-control contact_form_name" type="text"
+							placeholder="Name" required="required" style="margin-top: 20px;"
+							data-error="Name is required.">
+
+						<input id="contact_form_name" class="form-control contact_form_name" type="text"
+							placeholder="Standard" required="required" style="margin-top: 20px;"
+							data-error="Std is required.">
+						<input id="contact_form_contant" style="margin-top: 20px;"
+							class="form-control contact_form_contact" type="email" placeholder="Contact Number"
+							required="required" data-error="Valid contact is required.">
+						<input id="contact_form_email" style="margin-top: 20px;" class="form-control contact_form_email"
+							type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+						<textarea id="contact_form_message" style="margin-top: 20px;"
+							class="form-control contact_form_message" name="message" placeholder="Message"
+							required="required" data-error="Please, write us a message."></textarea>
+						<button id="contact_send_btn" style="margin-top: 20px;" type="button"
+							class="contact_send_btn trans_200" value="Submit">send message</button>
+					</form>
+				</div>
+			</div>
+
 		</div>
-	</div>
 
-</div>
-
-<script>
-	function onQuickEnq(tag) {
-		 document.getElementById('quick_form').style.display = tag ? 'block' : 'none';
-		document.getElementById('quick_enq').style.display = tag ? 'none' : 'block';
-	}
-</script>
-<!-- QUICK ENQ -->
+		<script>
+			function onQuickEnq(tag) {
+				document.getElementById('quick_form').style.display = tag ? 'block' : 'none';
+				document.getElementById('quick_enq').style.display = tag ? 'none' : 'block';
+			}
+		</script>
+		<!-- QUICK ENQ -->
 		<!-- Menu -->
 		<div class="menu_container menu_mm">
 
@@ -143,53 +148,50 @@
 						</ul>
 					</div>
 
-					
+
 				</div>
 
 			</div>
 
 		</div>
-        <!-- Home -->
+		<!-- Home -->
 
-        <div class="home">
-            <div class="home_background_container prlx_parent">
-                <div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
-            </div>
-            <div class="home_content">
-                <h1>Photo Gallery
-                </h1>
-            </div>
-        </div>
+		<div class="home">
+			<div class="home_background_container prlx_parent">
+				<div class="home_background prlx" style="background-image:url(images/eVENTS.jpg)"></div>
+			</div>
 
-        <!-- News -->
+		</div>
 
-        <div class="news">
-            <div class="container">
-                <div class="row container" id='galary'></div>
-            </div>
-            <script>
-                window.onload = function () {
-                    for (let i = 1; i < 10; i++) {
-                        document.getElementById('galary').innerHTML += `<div class='col-lg-4'>
+		<!-- News -->
+
+		<div class="news">
+			<div class="container">
+				<div class="row container" id='galary'></div>
+			</div>
+			<script>
+				window.onload = function () {
+					for (let i = 1; i < 10; i++) {
+						document.getElementById('galary').innerHTML += `<div class='col-lg-4'>
                             <img src='images/events${i}.jpeg'  class="img-fluid "  style="margin-top:20px;"/>
                             </div>`
-                    }
-                }
-            </script>
+					}
+				}
+			</script>
 
-            <!-- Footer -->
-        
+			<!-- Footer -->
 
-        </div>
-        <footer class="footer">
+
+		</div>
+		<footer class="footer">
 			<div class="container">
 
 				<!-- Newsletter -->
 
 				<div class="newsletter">
-					
 
-					
+
+
 
 				</div>
 
@@ -202,7 +204,7 @@
 						<div class="col-lg-6 footer_col">
 
 							<!-- Logo -->
-							<div class="logo_container">
+							<div class="logo_container"  id="logo_container">
 								<div class="logo">
 									<img src="images/logo_b copy.png" alt="">
 
@@ -282,18 +284,19 @@
 			</div>
 		</footer>
 
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="styles/bootstrap4/popper.js"></script>
-        <script src="styles/bootstrap4/bootstrap.min.js"></script>
-        <script src="plugins/greensock/TweenMax.min.js"></script>
-        <script src="plugins/greensock/TimelineMax.min.js"></script>
-        <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-        <script src="plugins/greensock/animation.gsap.min.js"></script>
-        <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-        <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-        <script src="plugins/easing/easing.js"></script>
-        <script src="js/news_custom.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="styles/bootstrap4/popper.js"></script>
+		<script src="styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="plugins/greensock/TweenMax.min.js"></script>
+		<script src="plugins/greensock/TimelineMax.min.js"></script>
+		<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+		<script src="plugins/greensock/animation.gsap.min.js"></script>
+		<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+		<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="plugins/easing/easing.js"></script>
+		<script src="js/news_custom.js"></script>
 
+<script src="js/rotate.js"></script>
 </body>
 
 </html>
